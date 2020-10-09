@@ -17,8 +17,13 @@ $ docker run -it --rm -w /app cobol bash
 2 . Run compiled helloworld binary.
 ```
 (docker)$ ./helloworld 
-Hello, World!
+Hello world from COBOL
 ```
 
 ## Acknowledgments
-Thats it
+terminal:docker-cobol-helloworld naveen$ docker run -it --rm -w /app cobol bash
+root@9f9e7b3f96bb:/app# cd ..
+root@9f9e7b3f96bb:/# ./helloworld 
+Hello world from COBOL
+root@9f9e7b3f96bb:/# 
+
